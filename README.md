@@ -10,19 +10,19 @@ MongoDB is a general purpose, document-based, distributed (NoSQL) database built
 #### 2. Accessing the endpoints
   Swagger has been configrured in the application, to access the Swagger UI, go to: http://localhost:8080/swagger-ui.html#. Alternatively, use applications like Postman to access the API endpoints, which are given below.<br><br>
 ### POST Mapping
-> http://localhost:8080/patient <br>
-To add a new document, request body consists of a patient document, and response consists of the saved document with its ID.
+- http://localhost:8080/patient <br>
+> To add a new document, request body consists of a patient document, and response consists of the saved document with its ID.
 ### GET Mapping
-> http://localhost:8080/patient <br>
-Get all documents in the collection. <br>
-> http://localhost:8080/patient/{patientId} <br>
-Get particular document, path variable contans patient Id, returns particular document, throws an error if it doesn't exist.
+- http://localhost:8080/patient <br>
+> Get all documents in the collection.<br>  
+- http://localhost:8080/patient/{patientId} <br>
+> Get particular document, path variable contans patient Id, returns particular document, throws an error if it doesn't exist.
 ### PUT Mapping
-> http://localhost:8080/patient <br>
-Update an existing document, request body consists of a patient document, returns the updated document, throws an error if it doesn't exist, or the data is unchanged.
+- http://localhost:8080/patient <br>
+> Update an existing document, request body consists of a patient document, returns the updated document, throws an error if it doesn't exist, or the data is unchanged.
 ### Delete Mapping
-> http://localhost:8080/patient/{patientId} <br> 
-Delete an existing document, path variable contans patient Id, returns all documents after deletion of the document, throws an error if it doesn't exist.
+- http://localhost:8080/patient/{patientId} <br> 
+> Delete an existing document, path variable contans patient Id, returns all documents after deletion of the document, throws an error if it doesn't exist.
 
 ### The Project Structure
 The project has the following directories: <br>
