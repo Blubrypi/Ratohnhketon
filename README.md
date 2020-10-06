@@ -41,4 +41,5 @@ The project has the following directories: <br>
 11. **service.impl**: Implements the methods which define the business logic.
 12. **util**: Contains the various utility methods and variables that are used in the application such as error messages, mappers, etc...
 
-Created by Abdul Rahman
+
+`Created by Abdul Rahman`
